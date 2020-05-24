@@ -13,8 +13,22 @@ public class HomeServiceImp implements HomeService {
     private HomeMapper homeMapper;
     @Override
     public User getUser(int id) {
-        User user = homeMapper.getUser(id);
-        System.out.println(user.toString());
-        return user;
+
+
+        User user1 = homeMapper.selectById(id);
+//        System.out.println("获得的用户数据"+ user1);
+        if(user1==null){
+            return null;
+        }
+            return user1;
+    }
+
+    @Override
+    public int addUser(String userName, String passWord) {
+        User user=new User();
+        user.setUserName(userName);
+        user.setPassWord(passWord);
+
+        return homeMapper.insert(user);
     }
 }
