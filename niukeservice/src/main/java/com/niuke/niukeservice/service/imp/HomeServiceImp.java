@@ -1,10 +1,15 @@
 package com.niuke.niukeservice.service.imp;
 
+import com.baomidou.mybatisplus.core.conditions.Wrapper;
+import com.baomidou.mybatisplus.core.conditions.segments.MergeSegments;
 import com.niuke.niukeservice.entity.User;
 import com.niuke.niukeservice.mapper.HomeMapper;
 import com.niuke.niukeservice.service.HomeService;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.sql.SQLException;
 
 @Service
 public class HomeServiceImp implements HomeService {
@@ -24,11 +29,24 @@ public class HomeServiceImp implements HomeService {
     }
 
     @Override
+    public boolean deleteUser(int id) {
+        int i = homeMapper.deleteById(id);
+        if(i==1){
+            return true;
+        }
+        return false;
+    }
+
+    @Override
     public int addUser(String userName, String passWord) {
         User user=new User();
         user.setUserName(userName);
         user.setPassWord(passWord);
-
         return homeMapper.insert(user);
+    }
+
+    @Override
+    public int updateUser(int id,String userName, String passWord) {
+        return homeMapper.updateUser(userName,passWord,id);
     }
 }

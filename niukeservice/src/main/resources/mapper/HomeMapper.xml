@@ -5,8 +5,14 @@
    <!--<select id="getUser" resultMap="userMap">-->
     <!--select * from t_user WHERE id=#{id};-->
    <!--</select>-->
+<update id="updateUser">
+ update t_user set
+        user_name = #{userName},
+        pass_word = #{passWord}
 
+  where id = #{id}
 
-    <resultMap id="userMap" type="user" autoMapping="true"></resultMap>
+</update>
+    <resultMap id="userMap" type="user" autoMapping="true"/>
     <sql id="user">id,user_name,pass_word</sql>
 </mapper>

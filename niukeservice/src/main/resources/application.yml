@@ -1,6 +1,6 @@
 server:
   #服务器端口号
-  port: 80
+  port: 8090
 logging:
   config: classpath:log4j2.xml
 javauser:

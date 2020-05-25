@@ -7,9 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="niukeservice" />
         <module name="niuke" />
         <module name="niukeclinet" />
-        <module name="niukeservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
