@@ -29,6 +29,14 @@ public class HomeServiceImp implements HomeService {
     }
 
     @Override
+    public User login(String userName) {
+        if(homeMapper.login(userName)==null){
+            return null;
+        }
+        return homeMapper.login(userName);
+    }
+
+    @Override
     public boolean deleteUser(int id) {
         int i = homeMapper.deleteById(id);
         if(i==1){
@@ -49,4 +57,6 @@ public class HomeServiceImp implements HomeService {
     public int updateUser(int id,String userName, String passWord) {
         return homeMapper.updateUser(userName,passWord,id);
     }
+
+
 }

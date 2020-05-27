@@ -39,6 +39,27 @@ public class homeController {
         return baseResponse;
     }
 
+    @GetMapping("api/user/login")
+    public @ResponseBody
+    BaseResponse<User> login(@RequestParam String userName,@RequestParam String passWord) {
+        BaseResponse<User> baseResponse=new BaseResponse<>();
+        User user = homeService.login(userName);
+//        System.out.println("获得的用户数据getUser"+ user);
+        if(user==null){
+            baseResponse.setCode(0);
+            baseResponse.setMessage("用户名或密码错误");
+        }else if(user.getPassWord().equals(passWord)){
+            baseResponse.setCode(1);
+            baseResponse.setMessage("登录成功");
+            baseResponse.setResult(user);
+        }
+        else {
+            baseResponse.setCode(0);
+            baseResponse.setMessage("用户名或密码错误");
+        }
+        return baseResponse;
+    }
+
     @GetMapping("api/home/deleteUser")
     public @ResponseBody
     BaseResponse<Object> deleteUser(@RequestParam int id) {

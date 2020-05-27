@@ -11,4 +11,6 @@ public interface HomeMapper extends BaseMapper<User> {
 //    User getUser(@Param("id")int id);
 //
     int updateUser(@Param("userName")String userName, @Param("passWord")String passWord , @Param("id")int id);
+
+    User login(@Param("userName")String userName);
 }

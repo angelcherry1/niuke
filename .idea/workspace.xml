@@ -40,25 +40,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e740c76-386a-424a-91e9-454710683299" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/niukeclinet/src/components/Log.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="3e740c76-386a-424a-91e9-454710683299" name="Default Changelist" comment="后台增加用户数据的增加和修改，删除">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/niuke.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/niukeclinet/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/niukeclinet/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/niukeclinet/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/niukeclinet/src/components/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/niukeclinet/src/components/UserTable.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/niukeclinet/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/niukeclinet/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/controller/homeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/controller/homeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/mapper/HomeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/mapper/HomeMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/service/HomeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/service/HomeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/service/imp/HomeServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/service/imp/HomeServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/niukeservice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/niukeservice/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/niukeservice/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/niukeservice/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/niukeservice/src/main/resources/mapper/HomeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/niukeservice/src/main/resources/mapper/HomeMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +96,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590331831085" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../electron-vue-admin-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue-admin-template-master" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -218,8 +205,25 @@
       <workItem from="1590241909068" duration="8091000" />
       <workItem from="1590297657294" duration="9323000" />
       <workItem from="1590376899648" duration="1682000" />
-      <workItem from="1590378619593" duration="15068000" />
+      <workItem from="1590378619593" duration="15322000" />
+      <workItem from="1590456258950" duration="3408000" />
+      <workItem from="1590551597899" duration="6141000" />
     </task>
+    <task id="LOCAL-00001" summary="后台增加用户数据的增加和修改，删除">
+      <created>1590402512286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590402512287</updated>
+    </task>
+    <task id="LOCAL-00002" summary="后台增加用户数据的增加和修改，删除">
+      <created>1590402622331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590402622331</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +241,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="后台增加用户数据的增加和修改，删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台增加用户数据的增加和修改，删除" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="337" y="361" key="#SQL_Dialects" timestamp="1590392141006">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -246,54 +254,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590392169313" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1590390035623">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1590567342439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590390035623" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590567342439" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590385860917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590385860917" />
-    <state x="719" y="204" key="FileChooserDialogImpl" timestamp="1590386759577">
+    <state x="719" y="204" key="FileChooserDialogImpl" timestamp="1590456904712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="719" y="204" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590386759577" />
-    <state width="1860" height="382" key="GridCell.Tab.0.bottom" timestamp="1590395273478">
+    <state x="719" y="204" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590456904712" />
+    <state width="1860" height="382" key="GridCell.Tab.0.bottom" timestamp="1590572574361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="382" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590395273478" />
-    <state width="1860" height="382" key="GridCell.Tab.0.center" timestamp="1590395273478">
+    <state width="1860" height="382" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590572574361" />
+    <state width="1860" height="382" key="GridCell.Tab.0.center" timestamp="1590572574360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="382" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590395273478" />
-    <state width="1860" height="382" key="GridCell.Tab.0.left" timestamp="1590395273477">
+    <state width="1860" height="382" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590572574360" />
+    <state width="1860" height="382" key="GridCell.Tab.0.left" timestamp="1590572574359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="382" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590395273477" />
-    <state width="1860" height="382" key="GridCell.Tab.0.right" timestamp="1590395273478">
+    <state width="1860" height="382" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590572574359" />
+    <state width="1860" height="382" key="GridCell.Tab.0.right" timestamp="1590572574360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="382" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590395273478" />
-    <state width="1860" height="382" key="GridCell.Tab.1.bottom" timestamp="1590395273479">
+    <state width="1860" height="382" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590572574360" />
+    <state width="1860" height="382" key="GridCell.Tab.1.bottom" timestamp="1590572574361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="382" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590395273479" />
-    <state width="1860" height="382" key="GridCell.Tab.1.center" timestamp="1590395273478">
+    <state width="1860" height="382" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590572574361" />
+    <state width="1860" height="382" key="GridCell.Tab.1.center" timestamp="1590572574361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="382" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590395273478" />
-    <state width="1860" height="382" key="GridCell.Tab.1.left" timestamp="1590395273478">
+    <state width="1860" height="382" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590572574361" />
+    <state width="1860" height="382" key="GridCell.Tab.1.left" timestamp="1590572574361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="382" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590395273478" />
-    <state width="1860" height="382" key="GridCell.Tab.1.right" timestamp="1590395273478">
+    <state width="1860" height="382" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590572574361" />
+    <state width="1860" height="382" key="GridCell.Tab.1.right" timestamp="1590572574361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="382" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590395273478" />
+    <state width="1860" height="382" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590572574361" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1590378769618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590378769618" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590402629576">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590402629576" />
     <state x="677" y="328" key="jetbrains.nodejs.interpreters-dialog" timestamp="1590378239040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

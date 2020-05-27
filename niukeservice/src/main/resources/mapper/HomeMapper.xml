@@ -2,9 +2,9 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.niuke.niukeservice.mapper.HomeMapper">
 
-   <!--<select id="getUser" resultMap="userMap">-->
-    <!--select * from t_user WHERE id=#{id};-->
-   <!--</select>-->
+   <select id="login" resultMap="userMap">
+    select * from t_user WHERE user_name=#{userName};
+   </select>
 <update id="updateUser">
  update t_user set
         user_name = #{userName},
