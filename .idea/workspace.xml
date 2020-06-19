@@ -41,12 +41,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e740c76-386a-424a-91e9-454710683299" name="Default Changelist" comment="后台增加用户数据的增加和修改，删除">
+      <change afterPath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/uitil/UtileBaseRespone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/niukeservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/niukeservice/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/controller/homeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/controller/homeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/controller/text.java" beforeDir="false" afterPath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/controller/text.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/mapper/HomeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/mapper/HomeMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/service/HomeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/service/HomeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/service/imp/HomeServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/niukeservice/src/main/java/com/niuke/niukeservice/service/imp/HomeServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/niukeservice/src/main/resources/mapper/HomeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/niukeservice/src/main/resources/mapper/HomeMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +209,18 @@
       <workItem from="1590376899648" duration="1682000" />
       <workItem from="1590378619593" duration="15322000" />
       <workItem from="1590456258950" duration="3408000" />
-      <workItem from="1590551597899" duration="6141000" />
+      <workItem from="1590551597899" duration="6390000" />
+      <workItem from="1590629487182" duration="5335000" />
+      <workItem from="1590736218783" duration="826000" />
+      <workItem from="1590977207879" duration="1191000" />
+      <workItem from="1590978428783" duration="1333000" />
+      <workItem from="1591060999163" duration="2061000" />
+      <workItem from="1591167980455" duration="729000" />
+      <workItem from="1592186656625" duration="34000" />
+      <workItem from="1592186772647" duration="35000" />
+      <workItem from="1592186836179" duration="1784000" />
+      <workItem from="1592382564209" duration="608000" />
+      <workItem from="1592547471039" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="后台增加用户数据的增加和修改，删除">
       <created>1590402512286</created>
@@ -223,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590402622331</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="后台增加用户数据的增加和修改，删除">
+      <created>1590573819505</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590573819505</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,46 +286,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="204" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590456904712" />
-    <state width="1860" height="382" key="GridCell.Tab.0.bottom" timestamp="1590572574361">
+    <state width="1860" height="410" key="GridCell.Tab.0.bottom" timestamp="1592214734157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="382" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590572574361" />
-    <state width="1860" height="382" key="GridCell.Tab.0.center" timestamp="1590572574360">
+    <state width="1860" height="410" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592214734157" />
+    <state width="1860" height="410" key="GridCell.Tab.0.center" timestamp="1592214734157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="382" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590572574360" />
-    <state width="1860" height="382" key="GridCell.Tab.0.left" timestamp="1590572574359">
+    <state width="1860" height="410" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592214734157" />
+    <state width="1860" height="410" key="GridCell.Tab.0.left" timestamp="1592214734157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="382" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590572574359" />
-    <state width="1860" height="382" key="GridCell.Tab.0.right" timestamp="1590572574360">
+    <state width="1860" height="410" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592214734157" />
+    <state width="1860" height="410" key="GridCell.Tab.0.right" timestamp="1592214734157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="382" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590572574360" />
-    <state width="1860" height="382" key="GridCell.Tab.1.bottom" timestamp="1590572574361">
+    <state width="1860" height="410" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592214734157" />
+    <state width="1860" height="410" key="GridCell.Tab.1.bottom" timestamp="1592214734157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="382" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590572574361" />
-    <state width="1860" height="382" key="GridCell.Tab.1.center" timestamp="1590572574361">
+    <state width="1860" height="410" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592214734157" />
+    <state width="1860" height="410" key="GridCell.Tab.1.center" timestamp="1592214734157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="382" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590572574361" />
-    <state width="1860" height="382" key="GridCell.Tab.1.left" timestamp="1590572574361">
+    <state width="1860" height="410" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592214734157" />
+    <state width="1860" height="410" key="GridCell.Tab.1.left" timestamp="1592214734157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="382" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590572574361" />
-    <state width="1860" height="382" key="GridCell.Tab.1.right" timestamp="1590572574361">
+    <state width="1860" height="410" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592214734157" />
+    <state width="1860" height="410" key="GridCell.Tab.1.right" timestamp="1592214734157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="382" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590572574361" />
+    <state width="1860" height="410" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592214734157" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1590378769618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590378769618" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590402629576">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590573845281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590402629576" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590573845281" />
     <state x="677" y="328" key="jetbrains.nodejs.interpreters-dialog" timestamp="1590378239040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

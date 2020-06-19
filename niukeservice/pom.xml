@@ -126,6 +126,9 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+        //jwt token加密
+
+
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
@@ -158,6 +161,7 @@
             <version>2.4</version>
             <classifier>jdk15</classifier>
         </dependency>
+
 
     </dependencies>
 

@@ -1,15 +1,13 @@
 package com.niuke.niukeservice.service.imp;
 
-import com.baomidou.mybatisplus.core.conditions.Wrapper;
-import com.baomidou.mybatisplus.core.conditions.segments.MergeSegments;
+import com.niuke.niukeservice.entity.BaseResponse;
 import com.niuke.niukeservice.entity.User;
 import com.niuke.niukeservice.mapper.HomeMapper;
 import com.niuke.niukeservice.service.HomeService;
-import org.apache.ibatis.annotations.Param;
+import com.niuke.niukeservice.uitil.UtileBaseRespone;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.sql.SQLException;
 
 @Service
 public class HomeServiceImp implements HomeService {
@@ -17,45 +15,61 @@ public class HomeServiceImp implements HomeService {
     @Autowired
     private HomeMapper homeMapper;
     @Override
-    public User getUser(int id) {
+    public BaseResponse<Object> getUser(int id) {
 
 
         User user1 = homeMapper.selectById(id);
-//        System.out.println("获得的用户数据"+ user1);
         if(user1==null){
-            return null;
+            return UtileBaseRespone.create(0,"信息获取失败",null);
         }
-            return user1;
+            return UtileBaseRespone.create(1,"获取成功！",user1);
     }
 
     @Override
-    public User login(String userName) {
-        if(homeMapper.login(userName)==null){
-            return null;
+    public BaseResponse<Object> login(String userName,String passWord) {
+        User login = homeMapper.login(userName);
+        if(login==null){
+            return UtileBaseRespone.create(0,"用户名错误",null);
+        }else if (!(login.getPassWord().equals(passWord))){
+            return UtileBaseRespone.create(0,"密码错误",null);
         }
-        return homeMapper.login(userName);
+        return UtileBaseRespone.create(1,"登录成功",login);
     }
 
     @Override
-    public boolean deleteUser(int id) {
+    public BaseResponse<Object> deleteUser(int id) {
         int i = homeMapper.deleteById(id);
         if(i==1){
-            return true;
+            return UtileBaseRespone.create(1,"删除成功！",null);
         }
-        return false;
+        return UtileBaseRespone.create(0,"删除失败！",null);
     }
 
     @Override
-    public int addUser(String userName, String passWord) {
+    public BaseResponse<Object> addUser(String userName, String passWord) {
         User user=new User();
         user.setUserName(userName);
         user.setPassWord(passWord);
-        return homeMapper.insert(user);
+        User login = homeMapper.login(userName);
+        if(login==null){
+            int insert = homeMapper.insert(user);
+            if(insert==1){
+                return UtileBaseRespone.create(1,"用户注册成功！",user);
+            }else {
+                return UtileBaseRespone.create(1,"用户注册失败！",null);
+            }
+        }else {
+           return UtileBaseRespone.create(0, "用户名已经存在", null);
+        }
     }
 
     @Override
-    public int updateUser(int id,String userName, String passWord) {
-        return homeMapper.updateUser(userName,passWord,id);
+    public BaseResponse<Object> updateUser(int id,String userName, String passWord) {
+        int i = homeMapper.updateUser(userName, passWord, id);
+        if(i==1){
+            return UtileBaseRespone.create(1,"修改成功",null);
+        }
+        return UtileBaseRespone.create(0,"修改失败！",null);
     }
 
 
